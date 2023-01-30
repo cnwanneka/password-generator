@@ -107,12 +107,18 @@ function getRandom(arr) {
 
   
 // Function to generate password with user input
-function generatePassword() {    
+function generatePassword() {  
+    let password = "";
+    for (let i = 0; i < characterLength; i++) {
+      const randomIndex = Math.floor(Math.random() * choiceArr.length)
+      password = password + choiceArr[randomIndex]; 
+    }
+    return password;  
 }
 
-function getPrompts(){
+function getPrompts() {
     choiceArr = [];
-    
+
     characterLength = parseInt(prompt("How long do you want your password to be? (Between 10 - 64 characters"));
 
     if(isNaN(characterLength) || characterLength < 10 || characterLength > 64) {
@@ -142,11 +148,15 @@ let generateBtn = document.querySelector('#generate');
   
 // Write password to the #password input
 function writePassword() {
-  let password = generatePassword();
-  let passwordText = document.querySelector('#password');
+    let rightPrompts = getPrompts();
+    
+    if (rightPrompts) {
+        let userPassword = generatePassword();
+        let passwordText = document.querySelector('#password');
   
-  passwordText.value = password;
-  }
+        passwordText.value = userPassword;
+    }    
+}
   
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
