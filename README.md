@@ -1,7 +1,7 @@
 # password-generator
 Description:
 
-The objective of this project was to create a password generator application.
+The objective of this project is to create a password generating application.
 
 Using this application, one can generate a random password based on the criteria that they have chosen.
 
