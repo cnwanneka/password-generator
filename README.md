@@ -3,7 +3,7 @@ Description:
 
 The objective of this project is to create a password generating application.
 
-Using this application, one can generate a random password based on the criteria that they have chosen.
+Using this application, one can generate a random password that is strong and secure, based on the criteria that they have chosen.
 
 Pseudo coding was very useful in the planning of this project.
 
