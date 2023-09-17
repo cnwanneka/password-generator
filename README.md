@@ -3,7 +3,7 @@ Description:
 
 The objective of this project is to create a password generating application.
 
-This is a simple command-line tool that helps one to generate a random password that is strong and secure. This password is based on the criteria that they have chosen.
+This is a simple command-line tool that helps one to generate a random password that is strong and secure. ThE password that one receives is based on the criteria that they have chosen.
 
 Pseudo coding was very useful in the planning of this project.
 
