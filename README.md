@@ -2,7 +2,7 @@ Password-generator
 
 Description:
 
-The objective of this project was to create a password-generating application.
+The objective of this project is to create a password-generating application.
 
 This application uses a cryptographically secure random number generator to ensure the randomness and security of generated passwords.
 
