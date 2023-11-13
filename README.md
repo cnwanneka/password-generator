@@ -6,7 +6,7 @@ The objective of this project is to create a password-generating application.
 
 This application uses a cryptographically secure random number generator to ensure the randomness and security of generated passwords.
 
-This application is a simple command-line tool that enables one to generate a random password, that is strong and secure. ThE password that one receives is based on the criteria that they have chosen.
+This application is a simple command-line tool that enables one to generate a random password, which is strong and secure. The password that one receives is based on the criteria that they have chosen in the prompts.
 
 I applied pseudo-coding in the planning and preparation of this project and it was useful.
 
