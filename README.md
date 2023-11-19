@@ -12,4 +12,4 @@ I applied pseudo-coding to the planning and preparation of this project and it w
 
 It was a challenging project and I encountered some difficulties but I got some hints from my tutors on this topic.
 
-URL of the application: https://cnwanneka.github.io/password-generator/
+The URL of the application: https://cnwanneka.github.io/password-generator/
